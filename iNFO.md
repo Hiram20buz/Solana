@@ -42,3 +42,9 @@ solana address -k key.json
 ```
 This must return your public key
 
+## How to check balance
+
+solana balance -k key.json --url https://api.devnet.solana.com
+
+## How to check address
+solana address -k key.json
