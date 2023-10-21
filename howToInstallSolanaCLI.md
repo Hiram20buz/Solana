@@ -1,3 +1,11 @@
+## Install the Solana Tool Suite
+https://docs.solana.com/es/cli/install-solana-cli-tools
+
+```bash
+sh -c "$(curl -sSfL https://release.solana.com/v1.17.3/install)"
+```
+### Note: Always check to see which version is the newest.
+
 If you want to add the specified PATH to your macOS environment permanently, you should add it to your shell profile configuration file. 
 
 Assuming you are using the default shell on macOS, which is usually the Bash shell, you can add this line to your `~/.bash_profile` file. Here's how you can do it using a terminal:
@@ -36,3 +44,6 @@ nano ~/.zshrc  or nano ~/.bash_profile
 
 export PATH="/Users/rxs0523/.local/share/solana/install/active_release/bin:$PATH"
  
+
+## Finally 
+solana --version
