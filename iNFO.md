@@ -50,3 +50,6 @@ solana address -k key.json
 
 ## How to get coins
 solana airdrop 1 -k key.json --url https://api.devnet.solana.com
+
+## How to transfer coins
+solana transfer --from key.json <RECIPIENT_ACCOUNT_ADDRESS> 0.5 --allow-unfunded-recipient --url https://api.devnet.solana.com --fee-payer key.json
