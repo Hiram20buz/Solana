@@ -27,3 +27,12 @@ Assuming you are using the default shell on macOS, which is usually the Bash she
 This will update your PATH environment variable, and the changes will take effect in your current terminal session.
 
 Please note that if you're using a different shell, like Zsh, the configuration file to edit might be `~/.zshrc` instead of `~/.bash_profile`. Be sure to use the appropriate file for your shell.
+
+
+## For example
+echo $SHELL
+
+nano ~/.zshrc  or nano ~/.bash_profile
+
+export PATH="/Users/rxs0523/.local/share/solana/install/active_release/bin:$PATH"
+ 
